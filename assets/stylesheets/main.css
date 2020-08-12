@@ -171,6 +171,7 @@ Buttons
 Links
 =============================================================================
 */
+
 .teaser a:hover h3 {
   color: #a9b2b9;
 }
@@ -259,13 +260,11 @@ Primary Header
   text-transform: uppercase;
 }
 
-.primary-header a,
-.primary-footer a {
+.primary-header a, .primary-footer a {
   color: #fff;
 }
 
-.primary-header a:hover,
-.primary-footer a:hover {
+.primary-header a:hover, .primary-footer a:hover {
   color: #648880;
 }
 
@@ -297,6 +296,16 @@ Navigation
   text-align: right;
 }
 
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
 /* 
 =============================================================================
 Rows
@@ -308,8 +317,7 @@ Rows
   padding: 66px 0 44px 0;
 }
 
-.row,
-.row-alt {
+.row, .row-alt {
   min-width: 960px;
 }
 
@@ -334,4 +342,22 @@ Leads
 .lead p {
   font-size: 21px;
   line-height: 33px;
+}
+
+/* 
+=============================================================================
+Speakers
+=============================================================================
+*/
+
+.speaker-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
+
+.speaker {
+  margin-bottom: 44px;
 }
